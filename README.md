@@ -23,7 +23,7 @@ I am a Systems Engineer passionate about **Local-First AI**, systems infrastruct
 
 | Project | Stack | Description |
 | :--- | :--- | :--- |
-| **[OpenCohost](https://opencohost.com)** | `Tauri 2` `Rust` `React` `Python` | Local-first multi-modal AI co-host for streamers and desktop users, featuring offline vision-language models, PiperTTS, and zero-latency audio pipelines. |
+| **[OpenCohost](https://opencohost.com)** | `Tauri 2` `Rust` `React` `Python` | Local-first multi-modal AI co-host powered by Qwen 3 VL, Laya (SystemOne), PiperTTS, and zero-latency audio pipelines. |
 | **[LiveAudio](https://liveaudio.opencohost.com)** | `Rust` `Faster-Whisper` `CUDA` `WebSocket` | Real-time local speech-to-text (ASR) engine. Migrated core inference from Python to Rust, achieving a 90% reduction in RAM and sub-3s response latency. |
 | **[Brick.draw](https://github.com/plynte-labs/brick-draw)** | `Tauri` `React` `TypeScript` `Rust` | Lightweight creative drawing studio with layered canvas workflows and local diffusion (SDXL) model support. |
 | **[EngramView](https://github.com/FranGuh/EngramView)** | `Tauri` `React` `TypeScript` | Read-only desktop viewer for local Engram memory stores and cognitive context inspection. |
@@ -35,7 +35,7 @@ I am a Systems Engineer passionate about **Local-First AI**, systems infrastruct
 
 ```text
 ├── Systems & Performance   : Rust, C++, Linux Administration, Bash / PowerShell
-├── AI & Local Models       : Faster-Whisper, Ollama, CUDA, PiperTTS, PyTorch, Scikit-Learn
+├── AI & Local Models       : Qwen 3 VL, Laya (SystemOne), Faster-Whisper, Ollama, CUDA, PiperTTS, PyTorch
 ├── Frontend & Desktop      : Tauri (v1 & v2), React, TypeScript, Next.js, Svelte, Tailwind CSS
 ├── Backend & Databases     : Python, Node.js, Express, PostgreSQL, SQLite, MySQL, MongoDB
 └── Cloud & Infrastructure  : AWS (EC2, S3), Cloudflare, Docker, Vercel, Git/GitHub Actions
