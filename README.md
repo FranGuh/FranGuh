@@ -19,7 +19,7 @@ I am a Systems Engineer passionate about **Local-First AI**, systems infrastruct
 
 ---
 
-### 🛠️ Featured Open Source & Projects
+### 🛠️ Featured Projects
 
 | Project | Stack | Description |
 | :--- | :--- | :--- |
@@ -27,7 +27,7 @@ I am a Systems Engineer passionate about **Local-First AI**, systems infrastruct
 | **[LiveAudio](https://liveaudio.opencohost.com)** | `Rust` `Faster-Whisper` `CUDA` `WebSocket` | Real-time local speech-to-text (ASR) engine. Migrated core inference from Python to Rust, achieving a 90% reduction in RAM and sub-3s response latency. |
 | **[Brick.draw](https://github.com/plynte-labs/brick-draw)** | `Tauri` `React` `TypeScript` `Rust` | Lightweight creative drawing studio with layered canvas workflows and local diffusion (SDXL) model support. |
 | **[EngramView](https://github.com/FranGuh/EngramView)** | `Tauri` `React` `TypeScript` | Read-only desktop viewer for local Engram memory stores and cognitive context inspection. |
-| **[Floppy](https://github.com/FranGuh/Floppy)** | `Python` `CUDA` `DBSCAN` `SQLite` | High-throughput computer vision pipeline for automated facial recognition and unsupervised clustering with explicit VRAM management. |
+| **Floppy** *(Proprietary)* | `Python` `CUDA` `DBSCAN` `SQLite` | High-throughput computer vision pipeline for automated facial recognition and unsupervised clustering with explicit VRAM management. |
 
 ---
 
