@@ -1,50 +1,46 @@
-# Hi there, I'm Francisco Salgado (FranGuh) 👋
+# Hi, I'm Francisco Salgado (FranGuh) 👋
 
-**Systems Engineer | Full-Stack & Applied AI Developer | Local-First AI Architect**
+**Full-Stack Developer · Local AI Engineer**
+Morelos, México · Open to remote roles · Spanish (native) / English (advanced)
 
-[![Website](https://img.shields.io/badge/Portfolio-plynte.com-blue?style=flat-square)](https://plynte.com)
-[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-FranGuh-ea4aaa?style=flat-square&logo=github-sponsors)](https://github.com/sponsors/FranGuh)
-[![Location](https://img.shields.io/badge/Location-Mexico%20(Remote)-informational?style=flat-square)](https://plynte.com)
-
----
-
-### 🚀 About Me
-
-I am a Systems Engineer passionate about **Local-First AI**, systems infrastructure, and high-performance software architecture. My core focus is bringing state-of-the-art AI workloads directly to user hardware without cloud lock-in—optimizing memory footprints, migrating runtime bottlenecks from Python to Rust, and designing responsive desktop and web experiences.
-
-- 🔭 **Building**: Local-first AI companion engines and low-latency audio pipelines at **[Plynte Labs](https://plynte.com)**.
-- ⚡ **Specialties**: Python-to-Rust runtime migrations, local model deployment (Ollama, Whisper, Faster-Whisper, SDXL), and modern desktop applications using Tauri & React.
-- 🎓 **Education**: B.S. in Computer Systems Engineering (*Instituto Tecnológico de Zacatepec*).
-- 💬 **Languages**: Spanish (Native), English (Advanced).
+I build web apps (React, Node.js, PostgreSQL, AWS) and desktop apps (Tauri, Rust) that run AI models on the user's own hardware: no cloud, no subscription, private by default.
 
 ---
 
-### 🛠️ Featured Projects
+### ⚡ Highlights
 
-| Project | Stack | Description |
-| :--- | :--- | :--- |
-| **[OpenCohost](https://opencohost.com)** | `Tauri 2` `Rust` `React` `Python` | Local-first multi-modal AI co-host powered by Qwen 3 VL, Laya (SystemOne), PiperTTS, and zero-latency audio pipelines. |
-| **[LiveAudio](https://liveaudio.opencohost.com)** | `Rust` `Faster-Whisper` `CUDA` `WebSocket` | Real-time local speech-to-text (ASR) engine. Migrated core inference from Python to Rust, achieving a 90% reduction in RAM and sub-3s response latency. |
-| **[Brick.draw](https://github.com/plynte-labs/brick-draw)** | `Tauri` `React` `TypeScript` `Rust` | Lightweight creative drawing studio with layered canvas workflows and local diffusion (SDXL) model support. |
-| **[EngramView](https://github.com/FranGuh/EngramView)** | `Tauri` `React` `TypeScript` | Read-only desktop viewer for local Engram memory stores and cognitive context inspection. |
-| **Floppy** *(Proprietary)* | `Python` `CUDA` `DBSCAN` `SQLite` | High-throughput computer vision pipeline for automated facial recognition and unsupervised clustering with explicit VRAM management. |
+- **Python → Rust migration (LiveAudio):** moved audio capture, voice activity detection, WebSocket broadcasting and process supervision to a native Rust workspace. Idle memory went from **~959 MB to ~73 MB** and cold start from **~2.8 s to ~17 ms**. [See benchmarks →](https://github.com/plynte-labs/LiveAudio#performance--migration-benchmarks-rust-core-v150-vs-python-v127)
+- **Real-time local speech recognition:** Faster-Whisper `small` running at **~25× real-time on an RTX 3060**, streamed as live subtitles into OBS.
+- **Production full-stack work (RaukeIT, 2025):** image-sharing platform and product catalog with Stripe payments, JWT auth, AWS S3 uploads, PostgreSQL and MongoDB.
 
 ---
 
-### 💻 Technical Expertise
+### 🛠️ Featured projects
 
-```text
-├── Systems & Performance   : Rust, C++, Linux Administration, Bash / PowerShell
-├── AI & Local Models       : Qwen 3 VL, Laya (SystemOne), Faster-Whisper, Ollama, CUDA, PiperTTS, PyTorch
-├── Frontend & Desktop      : Tauri (v1 & v2), React, TypeScript, Next.js, Svelte, Tailwind CSS
-├── Backend & Databases     : Python, Node.js, Express, PostgreSQL, SQLite, MySQL, MongoDB
-└── Cloud & Infrastructure  : AWS (EC2, S3), Cloudflare, Docker, Vercel, Git/GitHub Actions
+| Project | Stack | What it does |
+| --- | --- | --- |
+| **[LiveAudio](https://github.com/plynte-labs/LiveAudio)** | `Rust` `Tauri 2` `Faster-Whisper` `ONNX` `WebSocket` | Real-time local subtitles for streamers. Rust core + supervised Python ASR worker, OBS overlay, Windows/Linux. |
+| **[OpenCohost](https://github.com/plynte-labs/OpenCohost)** | `Tauri 2` `Rust` `React` `Python` `Ollama` | Local AI co-host for streamers: sees the screen (vision model), listens (STT), talks back (TTS) and remembers conversations. Viewer chat never leaves the machine. |
+| **[Brick.draw](https://github.com/plynte-labs/brick-draw)** | `Tauri` `React` `TypeScript` `Rust` | Lightweight layered drawing app with optional local Stable Diffusion XL enhancement. |
+| **[EngramView](https://github.com/FranGuh/EngramView)** | `Tauri` `React` `TypeScript` | Read-only desktop viewer for local Engram memory stores. |
+| **Floppy** *(private)* | `Python` `CUDA` `DBSCAN` `SQLite` | GPU computer-vision pipeline for unsupervised face clustering at scale, with explicit VRAM management. |
+
+---
+
+### 💻 Tech I've shipped with
+
+```
+Web        : React, TypeScript, Next.js, Svelte, Tailwind
+Backend    : Node.js, Express, Python, PostgreSQL, MongoDB, SQLite, Stripe, JWT
+Desktop    : Tauri 2, Rust (Tokio, CPAL, ONNX Runtime)
+Local AI   : Faster-Whisper, Silero VAD, Ollama, Qwen-VL, Qwen Image 2.1, PiperTTS, convaiinnovations/laya, CUDA
+Infra      : AWS (EC2, S3), Cloudflare, Vercel, Linux, Git
 ```
 
 ---
 
-### 📬 Connect With Me
+### 📬 Contact
 
-- 🌐 **Portfolio**: [plynte.com](https://plynte.com) / [franguh.plynte.com](https://franguh.plynte.com)
-- 💼 **Email**: [gitrafuh@gmail.com](mailto:gitrafuh@gmail.com)
-- 💖 **Sponsor My Work**: [github.com/sponsors/FranGuh](https://github.com/sponsors/FranGuh)
+- 🌐 [plynte.com](https://plynte.com) · [franguh.plynte.com](https://franguh.plynte.com)
+- 💼 gitrafuh@gmail.com
+- 💖 [Sponsor my open-source work](https://github.com/sponsors/FranGuh)
